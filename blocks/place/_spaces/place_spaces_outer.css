@@ -1,0 +1,29 @@
+.place_spaces_outer {
+  margin-top: 80px;
+}
+
+.place_spaces_outer:first-of-type {
+  margin-top: 0;
+}
+
+.place_spaces_outer:last-of-type {
+  margin-bottom: 92px;
+}
+
+@media screen and (max-width: 1023px) {
+  .place_spaces_outer {
+    margin-top: 73px;
+  }
+  .place_spaces_outer:last-of-type {
+    margin-bottom: 90px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place_spaces_outer {
+    margin-top: 50px;
+  }
+  .place_spaces_outer:last-of-type {
+    margin-bottom: 66px;
+  }
+}

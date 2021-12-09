@@ -1,5 +1,4 @@
 .photo-grid {
-  grid-area: photo-grid;
   width: calc(100% - 96px);
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, max-content));
@@ -7,23 +6,21 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 1280px) {
-  
+@media screen and (min-width: 1332px) {
+  .photo-grid {
+    width: 1237px;
+  }  
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     width: calc(100% - 48px);
-    margin-left: 24px;
-    margin-right: 24px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     width: 90%;
-    margin-right: 0;
-    margin-left: 0;
   } 
 }
 

@@ -14,28 +14,20 @@
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 1280px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
   .cover__link {
     max-height: 640px;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .cover__link {
     max-height: 480px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .cover__link {
     max-height: 62.5vw;
   }
-}
-
-@media screen and (max-width: 425px) {
-  
 }

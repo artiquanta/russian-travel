@@ -6,19 +6,7 @@
   margin-right: 0;
 }
 
-@media screen and (max-width: 1280px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .footer__links-item {
     margin-top: 32px;
     margin-right: 0;
@@ -26,8 +14,4 @@
   .footer__links-item:first-of-type {
     margin-top: 0;
   }
-}
-
-@media screen and (max-width: 425px) {
-  
 }

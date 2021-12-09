@@ -4,31 +4,19 @@
   color: #fff;
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px; 
+  line-height: 1.07; 
 }
 
-@media screen and (max-width: 1280px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .intro__title {
     margin-top: 88px;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .intro__title {
     margin-top: 64px;
     font-size: 9vw;
     line-height: 1.12;
   }
-}
-
-@media screen and (max-width: 425px) {
-  
 }

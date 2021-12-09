@@ -3,29 +3,7 @@
   padding: 0;
   color: #aaa;
   font-size: 12px;
-  line-height: 1.7;
+  line-height: 1;
   text-transform: uppercase;
   letter-spacing: 2px;
-}
-
-@media screen and (max-width: 1280px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-  .place__url-heading {
-    line-height: 1;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  
-}
-
-@media screen and (max-width: 425px) {
-  
 }

@@ -1,0 +1,9 @@
+.intro_spaces_outer {
+  margin-left: calc(48px + (100vw - 1024px)*0.3907);
+}
+
+@media screen and (max-width: 1023px) {
+  .intro_spaces_outer {
+    margin: 0;
+  } 
+}

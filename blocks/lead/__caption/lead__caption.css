@@ -8,28 +8,16 @@
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 1280px) {
-  
-}
-
-@media screen and (max-width: 1024px) {
-
-}
-
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .lead__caption {
     margin-left: 24px;
   }  
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .lead__caption {
     margin-left: 0;
     width: 90%;
     align-self: center;
   }
-}
-
-@media screen and (max-width: 425px) {
-  
 }
