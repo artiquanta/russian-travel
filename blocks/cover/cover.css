@@ -1,0 +1,6 @@
+.cover {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}

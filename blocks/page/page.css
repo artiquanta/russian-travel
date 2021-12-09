@@ -1,0 +1,10 @@
+.page {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-areas:
+  "header"
+  "content"
+  "footer";
+  background-color: #2A2C2F;
+}
