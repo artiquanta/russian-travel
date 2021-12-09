@@ -20,14 +20,16 @@
   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .cover__title {
     width: 90%;
     font-size: 12vw;
-    line-height: 1.1;
+    line-height: 1.1; /* Рассмотреть подробнее */
   }
 }
 
 @media screen and (max-width: 425px) {
-  
+  .cover__title {
+    font-size: 10vw;
+  }
 }

@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__title {
     width: 90%;
     justify-self: center;
@@ -33,5 +33,8 @@
 }
 
 @media screen and (max-width: 425px) {
-  
+  .place__title {
+    font-size: 10vw;
+    line-height: 1.1;
+  }
 }

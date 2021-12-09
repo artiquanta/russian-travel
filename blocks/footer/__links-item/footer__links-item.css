@@ -18,7 +18,7 @@
   
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .footer__links-item {
     margin-top: 32px;
     margin-right: 0;
