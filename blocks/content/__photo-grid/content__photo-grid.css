@@ -1,17 +1,17 @@
-.photo-grid_spaces_outer {
+.content__photo-grid {
   margin-top: 92px;
   margin-bottom: 92px;
 }
 
 @media screen and (max-width: 1023px) {
-  .photo-grid_spaces_outer {
+  .content__photo-grid {
     margin-top: 88px;
     margin-bottom: 88px;
   } 
 }
 
 @media screen and (max-width: 767px) {
-  .photo-grid_spaces_outer {
+  .content__photo-grid {
     margin-top: 64px;
     margin-bottom: 64px;
   }

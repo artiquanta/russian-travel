@@ -1,16 +1,23 @@
-.header_spaces_outer {
+.page__header {
   margin: 28px 48px 0;
 }
 
+@media screen and (min-width: 1377px) {
+  .page__header {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+
 @media screen and (max-width: 1023px) {
-  .header_spaces_outer {
+  .page__header {
     margin-right: 24px;
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
-  .header_spaces_outer {
+  .page__header {
     margin: 5% 5% 0;
   }
 }

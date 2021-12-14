@@ -3,4 +3,12 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
+  max-width: 1281px;
+}
+
+@media screen and (min-width: 1377px) {
+  .header {
+    width: 100%;
+    justify-self: center;
+  }  
 }
